@@ -1,3 +1,6 @@
+// Witness the least applicable use of a pointer ✨
+// Pointers are refernces in Golang Anyhow
+
 package main
 
 import "fmt"
@@ -8,6 +11,6 @@ func main() {
 	fmt.Printf("Reading i through pointer p: %v \n", *p)
 	for count := 0; count < 10; count++ {
 		*p += 1
-		fmt.Printf("Added 1 to i using pointer: %v \n", *p)
+		fmt.Printf("Adding 1 though pointer: %v \n", *p)
 	}
 }
